@@ -1,0 +1,38 @@
+<h1>Listing item_subtypes</h1>
+
+<table>
+  <tr>
+    <th>Item type</th>
+    <th>Name</th>
+    <th>Refill Day</th>
+	<th>Refill Week</th>
+	<th>Refill Month</th>
+	<th>Refill Year</th>
+    <th>Hpt Day</th>
+	<th>Hpt Week</th>
+	<th>Hpt Month</th>
+	<th>Hpt Year</th>
+  </tr>
+
+<% for item_subtype in @item_subtypes %>
+  <tr>
+    <td><%=h item_subtype.item_type_id %></td>
+    <td><%=h item_subtype.name %></td>
+    <td><%=h item_subtype.refill_day %></td>
+	<td><%=h item_subtype.refill_week %></td>
+	<td><%=h item_subtype.refill_month %></td>
+	<td><%=h item_subtype.refill_year %></td>
+    <td><%=h item_subtype.hpt_day %></td>
+	<td><%=h item_subtype.hpt_week %></td>
+	<td><%=h item_subtype.hpt_month %></td>
+	<td><%=h item_subtype.hpt_year %></td>
+    <td><%= link_to 'Show', item_subtype %></td>
+    <td><%= link_to 'Edit', edit_item_subtype_path(item_subtype) %></td>
+    <td><%= link_to 'Destroy', item_subtype, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New item_subtype', new_item_subtype_path %>

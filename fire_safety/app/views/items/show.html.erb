@@ -1,0 +1,53 @@
+<p>
+  <b>Item subtype:</b>
+  <%=h @item.item_subtype_id %>
+</p>
+
+<p>
+  <b>Company:</b>
+  <%=h @item.company_id %>
+</p>
+
+<p>
+  <b>Manufacturer:</b>
+  <%=h @item.manufacturer %>
+</p>
+
+<p>
+  <b>Manufacturer serial:</b>
+  <%=h @item.manufacturer_serial %>
+</p>
+
+<p>
+  <b>Capacity:</b>
+  <%=h @item.capacity %>
+</p>
+
+<p>
+  <b>Tare:</b>
+  <%=h @item.tare %>
+</p>
+
+<p>
+  <b>Trolley weight:</b>
+  <%=h @item.trolley_weight %>
+</p>
+
+<p>
+  <b>Next inspection date:</b>
+  <%=h @item.next_inspection_date %>
+</p>
+
+<p>
+  <b>Next refill date:</b>
+  <%=h @item.next_refill_date %>
+</p>
+
+<p>
+  <b>Next hpt date:</b>
+  <%=h @item.next_hpt_date %>
+</p>
+
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  item_type_id: 1
+  name: MyString
+  refill_period: MyString
+  hpt_period: MyString
+
+two:
+  item_type_id: 1
+  name: MyString
+  refill_period: MyString
+  hpt_period: MyString

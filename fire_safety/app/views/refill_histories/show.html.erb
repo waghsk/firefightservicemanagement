@@ -1,0 +1,23 @@
+<p>
+  <b>Item subtype:</b>
+  <%=h @refill_history.item_subtype_id %>
+</p>
+
+<p>
+  <b>Date of refill:</b>
+  <%=h @refill_history.date_of_refill %>
+</p>
+
+<p>
+  <b>Remark:</b>
+  <%=h @refill_history.remark %>
+</p>
+
+<p>
+  <b>Done by:</b>
+  <%=h @refill_history.done_by %>
+</p>
+
+
+<%= link_to 'Edit', edit_refill_history_path(@refill_history) %> |
+<%= link_to 'Back', refill_histories_path %>

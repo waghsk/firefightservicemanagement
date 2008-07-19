@@ -1,0 +1,28 @@
+<h1>Editing hpt_history</h1>
+
+<% form_for(@hpt_history) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :item_subtype_id %><br />
+    <%= f.text_field :item_subtype_id %>
+  </p>
+  <p>
+    <%= f.label :date_of_hpt %><br />
+    <%= f.datetime_select :date_of_hpt %>
+  </p>
+  <p>
+    <%= f.label :remark %><br />
+    <%= f.text_field :remark %>
+  </p>
+  <p>
+    <%= f.label :done_by %><br />
+    <%= f.text_field :done_by %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @hpt_history %> |
+<%= link_to 'Back', hpt_histories_path %>

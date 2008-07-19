@@ -1,0 +1,23 @@
+<p>
+  <b>Item subtype:</b>
+  <%=h @hpt_history.item_subtype_id %>
+</p>
+
+<p>
+  <b>Date of hpt:</b>
+  <%=h @hpt_history.date_of_hpt %>
+</p>
+
+<p>
+  <b>Remark:</b>
+  <%=h @hpt_history.remark %>
+</p>
+
+<p>
+  <b>Done by:</b>
+  <%=h @hpt_history.done_by %>
+</p>
+
+
+<%= link_to 'Edit', edit_hpt_history_path(@hpt_history) %> |
+<%= link_to 'Back', hpt_histories_path %>

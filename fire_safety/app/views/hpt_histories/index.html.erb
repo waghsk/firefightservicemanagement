@@ -1,0 +1,26 @@
+<h1>Listing hpt_histories</h1>
+
+<table>
+  <tr>
+    <th>Item subtype</th>
+    <th>Date of hpt</th>
+    <th>Remark</th>
+    <th>Done by</th>
+  </tr>
+
+<% for hpt_history in @hpt_histories %>
+  <tr>
+    <td><%=h hpt_history.item_subtype_id %></td>
+    <td><%=h hpt_history.date_of_hpt %></td>
+    <td><%=h hpt_history.remark %></td>
+    <td><%=h hpt_history.done_by %></td>
+    <td><%= link_to 'Show', hpt_history %></td>
+    <td><%= link_to 'Edit', edit_hpt_history_path(hpt_history) %></td>
+    <td><%= link_to 'Destroy', hpt_history, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New hpt_history', new_hpt_history_path %>

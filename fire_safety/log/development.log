@@ -1,0 +1,932 @@
+
+
+Processing InfoController#properties (for 127.0.0.1 at 2008-07-19 12:31:49) [GET]
+  Session ID: BAh7ByIMY29tcGFueXsIOglwYWdlaQY6CXNvcnQwOhNzb3J0X2RpcmVjdGlv
+biIIYXNjIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVyOjpGbGFzaDo6Rmxh
+c2hIYXNoewAGOgpAdXNlZHsA--bbd5213a533d39fbd9cf470b8c57a1deb50efb7a
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+
+
+CGI::Session::CookieStore::TamperedWithCookie (CGI::Session::CookieStore::TamperedWithCookie):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session/cookie_store.rb:144:in `unmarshal'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session/cookie_store.rb:101:in `restore'
+    c:/ruby/lib/ruby/1.8/cgi/session.rb:304:in `[]'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/cgi_process.rb:136:in `session'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/cgi_process.rb:168:in `stale_session_check!'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/cgi_process.rb:116:in `session'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1135:in `assign_shortcuts_without_flash'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/flash.rb:166:in `assign_shortcuts'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:523:in `process_without_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing InfoController#properties (for 127.0.0.1 at 2008-07-19 12:32:28) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--00545c4650035790a257150a1b503dac4b57e5c1
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+
+
+Processing InfoController#properties (for 127.0.0.1 at 2008-07-19 12:32:29) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--00545c4650035790a257150a1b503dac4b57e5c1
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+
+
+Mysql::Error (#42000Unknown database 'fire_safety_development'):
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/vendor/mysql.rb:523:in `read'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/vendor/mysql.rb:153:in `real_connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:505:in `connect'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:183:in `initialize'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:88:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:88:in `mysql_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `connection='
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:260:in `retrieve_connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing InfoController#properties (for 127.0.0.1 at 2008-07-19 12:32:56) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--00545c4650035790a257150a1b503dac4b57e5c1
+  Parameters: {"action"=>"properties", "controller"=>"rails/info"}
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: #42S02Table 'fire_safety_development.schema_migrations' doesn't exist: SELECT version FROM schema_migrations[0m
+Completed in 0.18700 (5 reqs/sec) | Rendering: 0.01500 (8%) | DB: 0.00000 (0%) | 200 OK [http://localhost/rails/info/properties]
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.156000)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.203000)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.031000)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20080719070539)
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.094000)[0m   [0mCREATE TABLE `companies` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255) DEFAULT NULL NULL, `address` varchar(255) DEFAULT NULL NULL, `contact_person` varchar(255) DEFAULT NULL NULL, `contact_details` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.063000)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080719070539')[0m
+  [4;35;1mSQL (0.015000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mdescribe `companies`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW KEYS FROM `companies`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-07-19 12:37:29) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--00545c4650035790a257150a1b503dac4b57e5c1
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/company" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2008-07-19 12:37:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--00545c4650035790a257150a1b503dac4b57e5c1
+  Parameters: {"action"=>"index", "controller"=>"companies"}
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mCompany Load (0.016000)[0m   [0mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (34%) | 200 OK [http://localhost/companies]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2008-07-19 12:37:41) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--00545c4650035790a257150a1b503dac4b57e5c1
+  Parameters: {"action"=>"new", "controller"=>"companies"}
+  [4;36;1mCompany Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03100 (65%) | DB: 0.00000 (0%) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2008-07-19 12:37:46) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"index", "controller"=>"companies"}
+  [4;35;1mCompany Load (0.000000)[0m   [0mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01500 (48%) | DB: 0.00000 (0%) | 200 OK [http://localhost/companies]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2008-07-19 13:16:00) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"new", "controller"=>"companies"}
+  [4;36;1mCompany Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/companies/new]
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.079000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20080719070539)
+  [4;35;1mSQL (0.015000)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateItemSubtypes (20080719071316)
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.266000)[0m   [0mCREATE TABLE `item_subtypes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `item_type_id` int(11) DEFAULT NULL NULL, `name` varchar(255) DEFAULT NULL NULL, `refill_period` varchar(255) DEFAULT NULL NULL, `hpt_period` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080719071316')[0m
+Migrating to CreateItemTypes (20080719072333)
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.109000)[0m   [0;1mCREATE TABLE `item_types` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000000)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080719072333')[0m
+Migrating to CreateItems (20080719072640)
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.093000)[0m   [0mCREATE TABLE `items` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `item_subtype_id` int(11) DEFAULT NULL NULL, `company_id` int(11) DEFAULT NULL NULL, `manufacturer` varchar(255) DEFAULT NULL NULL, `manufacturer_serial` varchar(255) DEFAULT NULL NULL, `capacity` varchar(255) DEFAULT NULL NULL, `tare` varchar(255) DEFAULT NULL NULL, `trolley_weight` varchar(255) DEFAULT NULL NULL, `next_inspection_date` datetime DEFAULT NULL NULL, `next_refill_date` datetime DEFAULT NULL NULL, `next_hpt_date` datetime DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.047000)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080719072640')[0m
+Migrating to CreateInspectionPeriods (20080719075507)
+  [4;35;1mSQL (0.016000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.094000)[0m   [0;1mCREATE TABLE `inspection_periods` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `item_subtype_id` int(11) DEFAULT NULL NULL, `company_id` int(11) DEFAULT NULL NULL, `days` int(11) DEFAULT NULL NULL, `weeks` int(11) DEFAULT NULL NULL, `months` int(11) DEFAULT NULL NULL, `years` int(11) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.047000)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080719075507')[0m
+Migrating to CreateInspectionHistories (20080719081256)
+  [4;36;1mSQL (0.015000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.094000)[0m   [0mCREATE TABLE `inspection_histories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `item_subtype_id` int(11) DEFAULT NULL NULL, `date_of_inspection` datetime DEFAULT NULL NULL, `remark` varchar(255) DEFAULT NULL NULL, `done_by` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080719081256')[0m
+Migrating to CreateHptHistories (20080719081351)
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.062000)[0m   [0;1mCREATE TABLE `hpt_histories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `item_subtype_id` int(11) DEFAULT NULL NULL, `date_of_hpt` datetime DEFAULT NULL NULL, `remark` varchar(255) DEFAULT NULL NULL, `done_by` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.031000)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080719081351')[0m
+Migrating to CreateRefillHistories (20080719081609)
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.078000)[0m   [0mCREATE TABLE `refill_histories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `item_subtype_id` int(11) DEFAULT NULL NULL, `date_of_refill` datetime DEFAULT NULL NULL, `remark` varchar(255) DEFAULT NULL NULL, `done_by` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.032000)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080719081609')[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.015000)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mdescribe `companies`[0m
+  [4;35;1mSQL (0.016000)[0m   [0mSHOW KEYS FROM `companies`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW FIELDS FROM `hpt_histories`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mdescribe `hpt_histories`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW KEYS FROM `hpt_histories`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW FIELDS FROM `inspection_histories`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mdescribe `inspection_histories`[0m
+  [4;35;1mSQL (0.016000)[0m   [0mSHOW KEYS FROM `inspection_histories`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW FIELDS FROM `inspection_periods`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mdescribe `inspection_periods`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW KEYS FROM `inspection_periods`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW FIELDS FROM `item_subtypes`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mdescribe `item_subtypes`[0m
+  [4;35;1mSQL (0.015000)[0m   [0mSHOW KEYS FROM `item_subtypes`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW FIELDS FROM `item_types`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mdescribe `item_types`[0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mSHOW KEYS FROM `item_types`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW FIELDS FROM `items`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mdescribe `items`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW KEYS FROM `items`[0m
+  [4;36;1mSQL (0.015000)[0m   [0;1mSHOW FIELDS FROM `refill_histories`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mdescribe `refill_histories`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW KEYS FROM `refill_histories`[0m
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2008-07-19 13:55:21) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"new", "controller"=>"companies"}
+  [4;35;1mCompany Columns (0.000000)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 0.11000 (9 reqs/sec) | Rendering: 0.07800 (70%) | DB: 0.00000 (0%) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2008-07-19 13:55:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"index", "controller"=>"companies"}
+  [4;36;1mCompany Load (0.016000)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (51%) | 200 OK [http://localhost/companies]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2008-07-19 13:57:34) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"new", "controller"=>"companies"}
+  [4;35;1mCompany Columns (0.000000)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.01600 (17%) | DB: 0.00000 (0%) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2008-07-19 13:57:40) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"new", "controller"=>"companies"}
+  [4;36;1mCompany Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.07800 (62%) | DB: 0.00000 (0%) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#create (for 127.0.0.1 at 2008-07-19 13:58:40) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"company"=>{"name"=>"Google Inc", "contact_person"=>"Satyajeet Deshpande", "contact_details"=>"There are no details", "address"=>"127 Kigsberry Drive, Somerset, New Jersey, USA"}, "commit"=>"Create", "authenticity_token"=>"8cd91c6ca593b27490068071dec7e704e6404dca", "action"=>"create", "controller"=>"companies"}
+  [4;35;1mCompany Columns (0.000000)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mCompany Create (0.016000)[0m   [0mINSERT INTO `companies` (`name`, `updated_at`, `contact_person`, `contact_details`, `address`, `created_at`) VALUES('Google Inc', '2008-07-19 08:28:40', 'Satyajeet Deshpande', 'There are no details', '127 Kigsberry Drive, Somerset, New Jersey, USA', '2008-07-19 08:28:40')[0m
+  [4;36;1mSQL (0.015000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/companies/1
+Completed in 0.12500 (8 reqs/sec) | DB: 0.03100 (24%) | 302 Found [http://localhost/companies]
+
+
+Processing CompaniesController#show (for 127.0.0.1 at 2008-07-19 13:58:41) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZDb21wYW55IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdG--2b3087867057ecb619dc68d99a6165a42fe2033e
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"companies"}
+  [4;35;1mCompany Columns (0.000000)[0m   [0mSHOW FIELDS FROM `companies`[0m
+  [4;36;1mCompany Load (0.031000)[0m   [0;1mSELECT * FROM `companies` WHERE (`companies`.`id` = 1) [0m
+Rendering template within layouts/companies
+Rendering companies/show
+Completed in 0.11000 (9 reqs/sec) | Rendering: 0.03200 (29%) | DB: 0.03100 (28%) | 200 OK [http://localhost/companies/1]
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2008-07-19 13:58:48) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiZDb21wYW55IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRl
+ZC4GOgpAdXNlZHsGOwdU--a32b63af6c4f4befe553a0e451315df1c04ceff7
+  Parameters: {"action"=>"index", "controller"=>"companies"}
+  [4;35;1mCompany Load (0.000000)[0m   [0mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;36;1mCompany Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `companies`[0m
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01500 (31%) | DB: 0.00000 (0%) | 200 OK [http://localhost/companies]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2008-07-19 13:58:53) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"new", "controller"=>"companies"}
+  [4;35;1mCompany Columns (0.000000)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2008-07-19 13:59:04) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"index", "controller"=>"companies"}
+  [4;36;1mCompany Load (0.000000)[0m   [0;1mSELECT * FROM `companies` [0m
+Rendering template within layouts/companies
+Rendering companies/index
+  [4;35;1mCompany Columns (0.016000)[0m   [0mSHOW FIELDS FROM `companies`[0m
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (25%) | 200 OK [http://localhost/companies]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-07-19 13:59:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/item" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2008-07-19 13:59:50) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;36;1mItem Load (0.000000)[0m   [0;1mSELECT * FROM `items` [0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03100 (39%) | DB: 0.00000 (0%) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#new (for 127.0.0.1 at 2008-07-19 13:59:57) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"new", "controller"=>"items"}
+  [4;35;1mItem Columns (0.031000)[0m   [0mSHOW FIELDS FROM `items`[0m
+Rendering template within layouts/items
+Rendering items/new
+Completed in 0.76500 (1 reqs/sec) | Rendering: 0.70300 (91%) | DB: 0.03100 (4%) | 200 OK [http://localhost/items/new]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2008-07-19 14:02:17) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"8cd91c6ca593b27490068071dec7e704e6404dca", "action"=>"create", "controller"=>"items", "item"=>{"tare"=>"whats that?", "trolley_weight"=>"24 kgs", "manufacturer_serial"=>"IDONTCARE", "next_refill_date(1i)"=>"2009", "next_refill_date(2i)"=>"4", "next_inspection_date(1i)"=>"2008", "next_refill_date(3i)"=>"19", "next_hpt_date(1i)"=>"2012", "item_subtype_id"=>"Fire Estinguisher", "next_inspection_date(2i)"=>"7", "next_refill_date(4i)"=>"08", "next_hpt_date(2i)"=>"10", "manufacturer"=>"Some Manufacturer", "next_inspection_date(3i)"=>"30", "next_refill_date(5i)"=>"29", "next_hpt_date(3i)"=>"17", "company_id"=>"Google Inc", "next_inspection_date(4i)"=>"08", "next_hpt_date(4i)"=>"08", "capacity"=>"45 litres", "next_inspection_date(5i)"=>"29", "next_hpt_date(5i)"=>"29"}}
+  [4;36;1mItem Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mItem Create (0.016000)[0m   [0;1mINSERT INTO `items` (`tare`, `trolley_weight`, `updated_at`, `manufacturer_serial`, `next_hpt_date`, `next_refill_date`, `item_subtype_id`, `manufacturer`, `next_inspection_date`, `company_id`, `capacity`, `created_at`) VALUES('whats that?', '24 kgs', '2008-07-19 08:32:17', 'IDONTCARE', '2012-10-17 08:29:00', '2009-04-19 08:29:00', 0, 'Some Manufacturer', '2008-07-30 08:29:00', 0, '45 litres', '2008-07-19 08:32:17')[0m
+  [4;35;1mSQL (0.015000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/items/1
+Completed in 0.09400 (10 reqs/sec) | DB: 0.03100 (32%) | 302 Found [http://localhost/items]
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2008-07-19 14:02:18) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNJdGVtIHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G
+OgpAdXNlZHsGOwdG--3319a1eccb0444cba742a456b1a3d1edb2dade8a
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"items"}
+  [4;36;1mItem Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+  [4;35;1mItem Load (0.015000)[0m   [0mSELECT * FROM `items` WHERE (`items`.`id` = 1) [0m
+Rendering template within layouts/items
+Rendering items/show
+Completed in 0.09300 (10 reqs/sec) | Rendering: 0.03100 (33%) | DB: 0.01500 (16%) | 200 OK [http://localhost/items/1]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2008-07-19 14:02:27) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNJdGVtIHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G
+OgpAdXNlZHsGOwdU--068f3c52dc0963cf94f510a05a85d6fa75b5daf6
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;36;1mItem Load (0.016000)[0m   [0;1mSELECT * FROM `items` [0m
+Rendering template within layouts/items
+Rendering items/index
+  [4;35;1mItem Columns (0.015000)[0m   [0mSHOW FIELDS FROM `items`[0m
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.03100 (49%) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#edit (for 127.0.0.1 at 2008-07-19 14:02:31) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"items"}
+  [4;36;1mItem Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+  [4;35;1mItem Load (0.016000)[0m   [0mSELECT * FROM `items` WHERE (`items`.`id` = 1) [0m
+Rendering template within layouts/items
+Rendering items/edit
+Completed in 0.15600 (6 reqs/sec) | Rendering: 0.10900 (69%) | DB: 0.01600 (10%) | 200 OK [http://localhost/items/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-07-19 14:03:18) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/items_types" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-07-19 14:03:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/itemstypes" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ItemTypesController#index (for 127.0.0.1 at 2008-07-19 14:03:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"index", "controller"=>"item_types"}
+  [4;36;1mItemType Load (0.031000)[0m   [0;1mSELECT * FROM `item_types` [0m
+Rendering template within layouts/item_types
+Rendering item_types/index
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.01600 (25%) | DB: 0.03100 (49%) | 200 OK [http://localhost/item_types]
+
+
+Processing ItemTypesController#new (for 127.0.0.1 at 2008-07-19 14:03:57) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"new", "controller"=>"item_types"}
+  [4;35;1mItemType Columns (0.000000)[0m   [0mSHOW FIELDS FROM `item_types`[0m
+Rendering template within layouts/item_types
+Rendering item_types/new
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.01600 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/item_types/new]
+
+
+Processing ItemTypesController#create (for 127.0.0.1 at 2008-07-19 14:04:12) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"8cd91c6ca593b27490068071dec7e704e6404dca", "action"=>"create", "controller"=>"item_types", "item_type"=>{"name"=>"Fire Estinguisher"}}
+  [4;36;1mItemType Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `item_types`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mItemType Create (0.000000)[0m   [0;1mINSERT INTO `item_types` (`name`, `updated_at`, `created_at`) VALUES('Fire Estinguisher', '2008-07-19 08:34:12', '2008-07-19 08:34:12')[0m
+  [4;35;1mSQL (0.016000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/item_types/1
+Completed in 0.07900 (12 reqs/sec) | DB: 0.01600 (20%) | 302 Found [http://localhost/item_types]
+
+
+Processing ItemTypesController#show (for 127.0.0.1 at 2008-07-19 14:04:13) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIidJdGVtVHlwZSB3YXMgc3VjY2Vzc2Z1bGx5IGNyZWF0
+ZWQuBjoKQHVzZWR7BjsHRg==--3b62500465641f921b880f6430f8842aa1d96a38
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"item_types"}
+  [4;36;1mItemType Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `item_types`[0m
+  [4;35;1mItemType Load (0.000000)[0m   [0mSELECT * FROM `item_types` WHERE (`item_types`.`id` = 1) [0m
+Rendering template within layouts/item_types
+Rendering item_types/show
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.01600 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/item_types/1]
+
+
+Processing ItemSubtypesController#index (for 127.0.0.1 at 2008-07-19 14:04:21) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIidJdGVtVHlwZSB3YXMgc3VjY2Vzc2Z1bGx5IGNyZWF0
+ZWQuBjoKQHVzZWR7BjsHVA==--2141e6ad61f400743b030e5d448b894e06e172ea
+  Parameters: {"action"=>"index", "controller"=>"item_subtypes"}
+  [4;36;1mItemSubtype Load (0.016000)[0m   [0;1mSELECT * FROM `item_subtypes` [0m
+Rendering template within layouts/item_subtypes
+Rendering item_subtypes/index
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.03200 (34%) | DB: 0.01600 (17%) | 200 OK [http://localhost/item_subtypes]
+
+
+Processing ItemSubtypesController#new (for 127.0.0.1 at 2008-07-19 14:04:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"new", "controller"=>"item_subtypes"}
+  [4;35;1mItemSubtype Columns (0.016000)[0m   [0mSHOW FIELDS FROM `item_subtypes`[0m
+Rendering template within layouts/item_subtypes
+Rendering item_subtypes/new
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01500 (31%) | DB: 0.01600 (34%) | 200 OK [http://localhost/item_subtypes/new]
+
+
+Processing ItemSubtypesController#new (for 127.0.0.1 at 2008-07-19 14:21:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"new", "controller"=>"item_subtypes"}
+  [4;36;1mItemSubtype Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `item_subtypes`[0m
+Rendering template within layouts/item_subtypes
+Rendering item_subtypes/new
+
+
+ActionView::TemplateError (undefined method `refill_period' for #<ItemSubtype:0x67d78b8>) on line #16 of item_subtypes/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :refill_period %><br />
+16:     <%= f.text_field :refill_period %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :hpt_period %><br />
+
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/attribute_methods.rb:256:in `method_missing'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:624:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:624:in `value_before_type_cast'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:612:in `value_before_type_cast'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:535:in `to_input_field_tag'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:358:in `text_field'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:709:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:709:in `text_field'
+    app/views/item_subtypes/new.html.erb:16:in `_run_erb_47app47views47item_subtypes47new46html46erb'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:317:in `fields_for'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:253:in `form_for'
+    app/views/item_subtypes/new.html.erb:3:in `_run_erb_47app47views47item_subtypes47new46html46erb'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/item_subtypes_controller.rb:29:in `new'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ItemSubtypesController#new (for 127.0.0.1 at 2008-07-19 14:40:21) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"new", "controller"=>"item_subtypes"}
+  [4;35;1mItemSubtype Columns (0.000000)[0m   [0mSHOW FIELDS FROM `item_subtypes`[0m
+Rendering template within layouts/item_subtypes
+Rendering item_subtypes/new
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/item_subtypes/new]
+
+
+Processing ItemSubtypesController#index (for 127.0.0.1 at 2008-07-19 14:40:27) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"index", "controller"=>"item_subtypes"}
+  [4;36;1mItemSubtype Load (0.000000)[0m   [0;1mSELECT * FROM `item_subtypes` [0m
+Rendering template within layouts/item_subtypes
+Rendering item_subtypes/index
+Completed in 0.04600 (21 reqs/sec) | Rendering: 0.01500 (32%) | DB: 0.00000 (0%) | 200 OK [http://localhost/item_subtypes]
+
+
+Processing ItemSubtypesController#index (for 127.0.0.1 at 2008-07-19 14:40:35) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"index", "controller"=>"item_subtypes"}
+  [4;35;1mItemSubtype Load (0.000000)[0m   [0mSELECT * FROM `item_subtypes` [0m
+Rendering template within layouts/item_subtypes
+Rendering item_subtypes/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/item_subtypes]
+
+
+Processing ItemSubtypesController#new (for 127.0.0.1 at 2008-07-19 14:40:37) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"new", "controller"=>"item_subtypes"}
+  [4;36;1mItemSubtype Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `item_subtypes`[0m
+Rendering template within layouts/item_subtypes
+Rendering item_subtypes/new
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.01500 (24%) | DB: 0.01600 (25%) | 200 OK [http://localhost/item_subtypes/new]
+
+
+Processing ItemSubtypesController#create (for 127.0.0.1 at 2008-07-19 14:41:25) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"8cd91c6ca593b27490068071dec7e704e6404dca", "action"=>"create", "controller"=>"item_subtypes", "item_subtype"=>{"name"=>"Subtype of Fire Estinguisher", "refill_day"=>"0", "refill_month"=>"1", "hpt_day"=>"0", "hpt_year"=>"0", "hpt_month"=>"3", "refill_week"=>"0", "hpt_week"=>"0", "item_type_id"=>"1", "refill_year"=>"0"}}
+  [4;35;1mItemSubtype Columns (0.000000)[0m   [0mSHOW FIELDS FROM `item_subtypes`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mItemSubtype Create (0.000000)[0m   [0mINSERT INTO `item_subtypes` (`name`, `refill_day`, `refill_month`, `updated_at`, `hpt_day`, `hpt_year`, `hpt_month`, `refill_week`, `hpt_week`, `item_type_id`, `refill_year`, `created_at`) VALUES('Subtype of Fire Estinguisher', 0, 1, '2008-07-19 09:11:25', 0, 0, 3, 0, 0, 1, 0, '2008-07-19 09:11:25')[0m
+  [4;36;1mSQL (0.031000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/item_subtypes/1
+Completed in 0.07800 (12 reqs/sec) | DB: 0.03100 (39%) | 302 Found [http://localhost/item_subtypes]
+
+
+Processing ItemSubtypesController#show (for 127.0.0.1 at 2008-07-19 14:41:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIipJdGVtU3VidHlwZSB3YXMgc3VjY2Vzc2Z1bGx5IGNy
+ZWF0ZWQuBjoKQHVzZWR7BjsHRg==--38c2ac344a867af78e2aa04105c39d65bf23717b
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"item_subtypes"}
+  [4;35;1mItemSubtype Columns (0.000000)[0m   [0mSHOW FIELDS FROM `item_subtypes`[0m
+  [4;36;1mItemSubtype Load (0.015000)[0m   [0;1mSELECT * FROM `item_subtypes` WHERE (`item_subtypes`.`id` = 1) [0m
+Rendering template within layouts/item_subtypes
+Rendering item_subtypes/show
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.01500 (31%) | 200 OK [http://localhost/item_subtypes/1]
+
+
+Processing ItemSubtypesController#index (for 127.0.0.1 at 2008-07-19 14:41:29) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIipJdGVtU3VidHlwZSB3YXMgc3VjY2Vzc2Z1bGx5IGNy
+ZWF0ZWQuBjoKQHVzZWR7BjsHVA==--f8630f610cb714f07f3c0bd834862fcd0aef2b53
+  Parameters: {"action"=>"index", "controller"=>"item_subtypes"}
+  [4;35;1mItemSubtype Load (0.000000)[0m   [0mSELECT * FROM `item_subtypes` [0m
+Rendering template within layouts/item_subtypes
+Rendering item_subtypes/index
+  [4;36;1mItemSubtype Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `item_subtypes`[0m
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/item_subtypes]
+
+
+Processing ItemSubtypesController#index (for 127.0.0.1 at 2008-07-19 14:42:46) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"index", "controller"=>"item_subtypes"}
+  [4;35;1mItemSubtype Load (0.000000)[0m   [0mSELECT * FROM `item_subtypes` [0m
+Rendering template within layouts/item_subtypes
+Rendering item_subtypes/index
+  [4;36;1mItemSubtype Columns (0.015000)[0m   [0;1mSHOW FIELDS FROM `item_subtypes`[0m
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.03200 (34%) | DB: 0.01500 (15%) | 200 OK [http://localhost/item_subtypes]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-07-19 14:44:12) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/item" with {:method=>:get}):
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2008-07-19 14:44:16) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"index", "controller"=>"items"}
+  [4;35;1mItem Load (0.031000)[0m   [0mSELECT * FROM `items` [0m
+Rendering template within layouts/items
+Rendering items/index
+  [4;36;1mItem Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `items`[0m
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.01600 (17%) | DB: 0.03100 (32%) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#edit (for 127.0.0.1 at 2008-07-19 14:44:50) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlOTA0MTVhYTliMjZkYTZiNTg1YWRiOTY3MGZjZjFl
+NTAiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--698fb6684e816ae3d4a18b77fde16cf98b18cb55
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"items"}
+  [4;35;1mItem Columns (0.000000)[0m   [0mSHOW FIELDS FROM `items`[0m
+  [4;36;1mItem Load (0.000000)[0m   [0;1mSELECT * FROM `items` WHERE (`items`.`id` = 1) [0m
+Rendering template within layouts/items
+Rendering items/edit
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.06200 (65%) | DB: 0.00000 (0%) | 200 OK [http://localhost/items/1/edit]

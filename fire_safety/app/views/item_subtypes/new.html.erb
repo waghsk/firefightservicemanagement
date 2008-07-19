@@ -1,0 +1,51 @@
+<h1>New item_subtype</h1>
+
+<% form_for(@item_subtype) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :item_type_id %><br />
+    <%= f.text_field :item_type_id %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :refill_day %><br />
+    <%= f.text_field :refill_day %>
+  </p>
+  <p>
+    <%= f.label :refill_week %><br />
+    <%= f.text_field :refill_week %>
+  </p>
+  <p>
+    <%= f.label :refill_month %><br />
+    <%= f.text_field :refill_month %>
+  </p>
+  <p>
+    <%= f.label :refill_year %><br />
+    <%= f.text_field :refill_year %>
+  </p>
+  <p>
+    <%= f.label :hpt_day %><br />
+    <%= f.text_field :hpt_day %>
+  </p>
+  <p>
+    <%= f.label :hpt_week %><br />
+    <%= f.text_field :hpt_week %>
+  </p>
+  <p>
+    <%= f.label :hpt_month %><br />
+    <%= f.text_field :hpt_month %>
+  </p>
+  <p>
+    <%= f.label :hpt_year %><br />
+    <%= f.text_field :hpt_year %>
+  </p>
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', item_subtypes_path %>

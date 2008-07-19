@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  item_subtype_id: 1
+  date_of_refill: 2008-07-19 13:46:09
+  remark: MyString
+  done_by: MyString
+
+two:
+  item_subtype_id: 1
+  date_of_refill: 2008-07-19 13:46:09
+  remark: MyString
+  done_by: MyString

@@ -1,0 +1,38 @@
+<h1>Listing items</h1>
+
+<table>
+  <tr>
+    <th>Item subtype</th>
+    <th>Company</th>
+    <th>Manufacturer</th>
+    <th>Manufacturer serial</th>
+    <th>Capacity</th>
+    <th>Tare</th>
+    <th>Trolley weight</th>
+    <th>Next inspection date</th>
+    <th>Next refill date</th>
+    <th>Next hpt date</th>
+  </tr>
+
+<% for item in @items %>
+  <tr>
+    <td><%=h item.item_subtype_id %></td>
+    <td><%=h item.company_id %></td>
+    <td><%=h item.manufacturer %></td>
+    <td><%=h item.manufacturer_serial %></td>
+    <td><%=h item.capacity %></td>
+    <td><%=h item.tare %></td>
+    <td><%=h item.trolley_weight %></td>
+    <td><%=h item.next_inspection_date %></td>
+    <td><%=h item.next_refill_date %></td>
+    <td><%=h item.next_hpt_date %></td>
+    <td><%= link_to 'Show', item %></td>
+    <td><%= link_to 'Edit', edit_item_path(item) %></td>
+    <td><%= link_to 'Destroy', item, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New item', new_item_path %>

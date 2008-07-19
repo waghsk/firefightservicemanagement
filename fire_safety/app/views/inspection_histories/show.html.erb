@@ -1,0 +1,23 @@
+<p>
+  <b>Item subtype:</b>
+  <%=h @inspection_history.item_subtype_id %>
+</p>
+
+<p>
+  <b>Date of inspection:</b>
+  <%=h @inspection_history.date_of_inspection %>
+</p>
+
+<p>
+  <b>Remark:</b>
+  <%=h @inspection_history.remark %>
+</p>
+
+<p>
+  <b>Done by:</b>
+  <%=h @inspection_history.done_by %>
+</p>
+
+
+<%= link_to 'Edit', edit_inspection_history_path(@inspection_history) %> |
+<%= link_to 'Back', inspection_histories_path %>
