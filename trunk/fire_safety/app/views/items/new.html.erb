@@ -1,0 +1,51 @@
+<h1>New item</h1>
+
+<% form_for(@item) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :item_subtype_id %><br />
+    <%= f.text_field :item_subtype_id %>
+  </p>
+  <p>
+    <%= f.label :company_id %><br />
+    <%= f.text_field :company_id %>
+  </p>
+  <p>
+    <%= f.label :manufacturer %><br />
+    <%= f.text_field :manufacturer %>
+  </p>
+  <p>
+    <%= f.label :manufacturer_serial %><br />
+    <%= f.text_field :manufacturer_serial %>
+  </p>
+  <p>
+    <%= f.label :capacity %><br />
+    <%= f.text_field :capacity %>
+  </p>
+  <p>
+    <%= f.label :tare %><br />
+    <%= f.text_field :tare %>
+  </p>
+  <p>
+    <%= f.label :trolley_weight %><br />
+    <%= f.text_field :trolley_weight %>
+  </p>
+  <p>
+    <%= f.label :next_inspection_date %><br />
+    <%= f.datetime_select :next_inspection_date %>
+  </p>
+  <p>
+    <%= f.label :next_refill_date %><br />
+    <%= f.datetime_select :next_refill_date %>
+  </p>
+  <p>
+    <%= f.label :next_hpt_date %><br />
+    <%= f.datetime_select :next_hpt_date %>
+  </p>
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', items_path %>

@@ -1,0 +1,33 @@
+<p>
+  <b>Item subtype:</b>
+  <%=h @inspection_period.item_subtype_id %>
+</p>
+
+<p>
+  <b>Company:</b>
+  <%=h @inspection_period.company_id %>
+</p>
+
+<p>
+  <b>Days:</b>
+  <%=h @inspection_period.days %>
+</p>
+
+<p>
+  <b>Weeks:</b>
+  <%=h @inspection_period.weeks %>
+</p>
+
+<p>
+  <b>Months:</b>
+  <%=h @inspection_period.months %>
+</p>
+
+<p>
+  <b>Years:</b>
+  <%=h @inspection_period.years %>
+</p>
+
+
+<%= link_to 'Edit', edit_inspection_period_path(@inspection_period) %> |
+<%= link_to 'Back', inspection_periods_path %>

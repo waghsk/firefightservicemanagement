@@ -1,0 +1,26 @@
+<h1>Listing refill_histories</h1>
+
+<table>
+  <tr>
+    <th>Item subtype</th>
+    <th>Date of refill</th>
+    <th>Remark</th>
+    <th>Done by</th>
+  </tr>
+
+<% for refill_history in @refill_histories %>
+  <tr>
+    <td><%=h refill_history.item_subtype_id %></td>
+    <td><%=h refill_history.date_of_refill %></td>
+    <td><%=h refill_history.remark %></td>
+    <td><%=h refill_history.done_by %></td>
+    <td><%= link_to 'Show', refill_history %></td>
+    <td><%= link_to 'Edit', edit_refill_history_path(refill_history) %></td>
+    <td><%= link_to 'Destroy', refill_history, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New refill_history', new_refill_history_path %>

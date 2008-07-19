@@ -1,0 +1,36 @@
+<h1>Editing inspection_period</h1>
+
+<% form_for(@inspection_period) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :item_subtype_id %><br />
+    <%= f.text_field :item_subtype_id %>
+  </p>
+  <p>
+    <%= f.label :company_id %><br />
+    <%= f.text_field :company_id %>
+  </p>
+  <p>
+    <%= f.label :days %><br />
+    <%= f.text_field :days %>
+  </p>
+  <p>
+    <%= f.label :weeks %><br />
+    <%= f.text_field :weeks %>
+  </p>
+  <p>
+    <%= f.label :months %><br />
+    <%= f.text_field :months %>
+  </p>
+  <p>
+    <%= f.label :years %><br />
+    <%= f.text_field :years %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @inspection_period %> |
+<%= link_to 'Back', inspection_periods_path %>

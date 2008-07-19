@@ -1,0 +1,28 @@
+<h1>Editing inspection_history</h1>
+
+<% form_for(@inspection_history) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :item_subtype_id %><br />
+    <%= f.text_field :item_subtype_id %>
+  </p>
+  <p>
+    <%= f.label :date_of_inspection %><br />
+    <%= f.datetime_select :date_of_inspection %>
+  </p>
+  <p>
+    <%= f.label :remark %><br />
+    <%= f.text_field :remark %>
+  </p>
+  <p>
+    <%= f.label :done_by %><br />
+    <%= f.text_field :done_by %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @inspection_history %> |
+<%= link_to 'Back', inspection_histories_path %>

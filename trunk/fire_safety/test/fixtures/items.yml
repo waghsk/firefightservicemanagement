@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  item_subtype_id: 1
+  company_id: 1
+  manufacturer: MyString
+  manufacturer_serial: MyString
+  capacity: MyString
+  tare: MyString
+  trolley_weight: MyString
+  next_inspection_date: 2008-07-19 12:56:40
+  next_refill_date: 2008-07-19 12:56:40
+  next_hpt_date: 2008-07-19 12:56:40
+
+two:
+  item_subtype_id: 1
+  company_id: 1
+  manufacturer: MyString
+  manufacturer_serial: MyString
+  capacity: MyString
+  tare: MyString
+  trolley_weight: MyString
+  next_inspection_date: 2008-07-19 12:56:40
+  next_refill_date: 2008-07-19 12:56:40
+  next_hpt_date: 2008-07-19 12:56:40

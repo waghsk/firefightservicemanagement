@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  item_subtype_id: 1
+  company_id: 1
+  days: 1
+  weeks: 1
+  months: 1
+  years: 1
+
+two:
+  item_subtype_id: 1
+  company_id: 1
+  days: 1
+  weeks: 1
+  months: 1
+  years: 1

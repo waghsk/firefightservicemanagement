@@ -1,0 +1,26 @@
+<h1>Listing inspection_histories</h1>
+
+<table>
+  <tr>
+    <th>Item subtype</th>
+    <th>Date of inspection</th>
+    <th>Remark</th>
+    <th>Done by</th>
+  </tr>
+
+<% for inspection_history in @inspection_histories %>
+  <tr>
+    <td><%=h inspection_history.item_subtype_id %></td>
+    <td><%=h inspection_history.date_of_inspection %></td>
+    <td><%=h inspection_history.remark %></td>
+    <td><%=h inspection_history.done_by %></td>
+    <td><%= link_to 'Show', inspection_history %></td>
+    <td><%= link_to 'Edit', edit_inspection_history_path(inspection_history) %></td>
+    <td><%= link_to 'Destroy', inspection_history, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New inspection_history', new_inspection_history_path %>

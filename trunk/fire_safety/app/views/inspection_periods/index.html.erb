@@ -1,0 +1,30 @@
+<h1>Listing inspection_periods</h1>
+
+<table>
+  <tr>
+    <th>Item subtype</th>
+    <th>Company</th>
+    <th>Days</th>
+    <th>Weeks</th>
+    <th>Months</th>
+    <th>Years</th>
+  </tr>
+
+<% for inspection_period in @inspection_periods %>
+  <tr>
+    <td><%=h inspection_period.item_subtype_id %></td>
+    <td><%=h inspection_period.company_id %></td>
+    <td><%=h inspection_period.days %></td>
+    <td><%=h inspection_period.weeks %></td>
+    <td><%=h inspection_period.months %></td>
+    <td><%=h inspection_period.years %></td>
+    <td><%= link_to 'Show', inspection_period %></td>
+    <td><%= link_to 'Edit', edit_inspection_period_path(inspection_period) %></td>
+    <td><%= link_to 'Destroy', inspection_period, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New inspection_period', new_inspection_period_path %>
