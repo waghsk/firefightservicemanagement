@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <th>Item subtype</th>
+    <th>Item ID</th>
     <th>Date of hpt</th>
     <th>Remark</th>
     <th>Done by</th>
@@ -10,7 +10,7 @@
 
 <% for hpt_history in @hpt_histories %>
   <tr>
-    <td><%=h hpt_history.item_subtype_id %></td>
+    <td><%=h hpt_history.item_id %></td>
     <td><%=h hpt_history.date_of_hpt %></td>
     <td><%=h hpt_history.remark %></td>
     <td><%=h hpt_history.done_by %></td>

@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <th>Item subtype</th>
+    <th>Item ID</th>
     <th>Date of inspection</th>
     <th>Remark</th>
     <th>Done by</th>
@@ -10,7 +10,7 @@
 
 <% for inspection_history in @inspection_histories %>
   <tr>
-    <td><%=h inspection_history.item_subtype_id %></td>
+    <td><%=h inspection_history.item_id %></td>
     <td><%=h inspection_history.date_of_inspection %></td>
     <td><%=h inspection_history.remark %></td>
     <td><%=h inspection_history.done_by %></td>
