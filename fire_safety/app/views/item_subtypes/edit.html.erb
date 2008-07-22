@@ -4,8 +4,8 @@
   <%= f.error_messages %>
 
   <p>
-    <%= f.label :item_type_id %><br />
-    <%= f.text_field :item_type_id %>
+    <%= f.label :item_type_id %>
+    <%= f.collection_select :item_type_id, ItemType.find(:all), :id, :name %>
   </p>
   <p>
     <%= f.label :name %><br />

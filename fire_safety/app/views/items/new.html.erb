@@ -3,13 +3,13 @@
 <% form_for(@item) do |f| %>
   <%= f.error_messages %>
 
-  <p>
-    <%= f.label :item_subtype_id %><br />
-    <%= f.text_field :item_subtype_id %>
+   <p>
+    <%= f.label :item_Subtype_name %>
+    <%= f.collection_select :item_subtype_id, ItemSubtype.find(:all), :id, :name %>
   </p>
-  <p>
-    <%= f.label :company_id %><br />
-    <%= f.text_field :company_id %>
+    <p>
+    <%= f.label :company_name %>
+    <%= f.collection_select :company_id, Company.find(:all), :id, :name %>
   </p>
   <p>
     <%= f.label :manufacturer %><br />
