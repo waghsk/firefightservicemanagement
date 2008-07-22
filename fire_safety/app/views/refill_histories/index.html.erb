@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <th>Item subtype</th>
+    <th>Item ID</th>
     <th>Date of refill</th>
     <th>Remark</th>
     <th>Done by</th>
@@ -10,7 +10,7 @@
 
 <% for refill_history in @refill_histories %>
   <tr>
-    <td><%=h refill_history.item_subtype_id %></td>
+    <td><%=h refill_history.item_id %></td>
     <td><%=h refill_history.date_of_refill %></td>
     <td><%=h refill_history.remark %></td>
     <td><%=h refill_history.done_by %></td>
