@@ -126,6 +126,7 @@ CREATE TABLE `items` (
   `next_inspection_date` datetime default NULL,
   `next_refill_date` datetime default NULL,
   `next_hpt_date` datetime default NULL,
+  `current_remark` varchar(255) default '"OK"',
   `created_at` datetime default NULL,
   `updated_at` datetime default NULL,
   PRIMARY KEY  (`id`)
